@@ -44,7 +44,7 @@ def merge_sort(students, keys):
 def display_students(students):
     for student in students:
         name = f"{student['firstname']} {student['lastname']}"
-        print({'name': name, 'id': student['id'], 'grade': student['grade']})
+        print(f"name: {name}, id: {student['id']}, grade: {student['grade']}")
 
 def add_student(students):
     firstname = input("Enter the student's first name: ").strip()
